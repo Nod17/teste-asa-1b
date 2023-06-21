@@ -1,0 +1,5 @@
+zone "pr.asa.br" { // Change to desired zone
+	type master;
+	file "/etc/bind/db.asa.br";	// Change to zone file path
+	allow-transfer {any; };		// Change to Secondary DNS IP
+};
